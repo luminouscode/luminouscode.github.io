@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  {% include head.html %}
+  <body id="top">
+    <div id="layout_wrapper">
+      <div id="layout_wrapper2">
+        <div id="layout_wrapper3">
+          <div id="layout_wrapper4">
+            {% include header.html %}
+            <div id="navigation">
+              <div id="nav"></div>
+              <div class="clearer">
+                &nbsp;
+              </div>
+            </div>
+            <div id="main_wrapper">
+              <div id="main">
+                <div class="left" id="content_wrapper">
+                  <div id="content">
+                    {{ content }}
+                  </div>
+                </div>
+                <div class="right" id="sidebar_wrapper">
+                  <div id="sidebar">
+                    <div class="box">
+                      <div class="box_title">
+                        Adepts
+                      </div>
+                      <div class="box_content">
+                        <ul>
+                          <li>
+                            <a href="necroscree/index.html">
+                              Necroscree
+                            </a>
+                          </li>
+                          <li>
+                            <a href="valecnik/index.html">
+                              Valecnik
+                            </a>
+                          </li>
+                        </ul>
+                      </div>
+                      <div class="clearer">
+                        &nbsp;
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="clearer">
+                  &nbsp;
+                </div>
+              </div>
+            </div>
+          </div>
+          {% include footer.html %}
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

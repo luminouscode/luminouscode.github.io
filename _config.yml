@@ -1,0 +1,7 @@
+# Site settings
+title: Flottgnosis
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://flottgnosis.com" # the base hostname & protocol for your site
+
+# Build settings
+markdown: kramdown
